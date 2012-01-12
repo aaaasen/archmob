@@ -1,0 +1,25 @@
+
+* setup
+** TODO learn git and setup a repository [2 hours]
+* bash configuration script to setup video, sound, Xorg, Xorg accessories, xmonad
+** TODO install Arch on clean computer, list all configuration steps [2 hours](4)
+** TODO create configuration script based on data from previous task [2 hours]
+** TODO test config script on clean install, tweak and repeat until satisfactory [4 hours]
+* custom keybindings for miniature keyboard
+** TODO create keybindings, test, tweak and repeat until satisfactory [3 hours]
+* customize xmonad and xmobar for small screens
+** TODO create config file, test, tweak and repeat until satisfactory [3 hours]
+* ncurses interface for google voice
+** TODO research capabilities of google voice and learn pygooglevoice [4 hours]
+** TODO create simple wrappers for pygooglevoice available through bash or python [2 hours]
+** TODO learn ncurses [4 hours]
+** TODO create ncurses interface using aforementioned google voice wrappers [4 hours]
+
+* tested and polished
+** TODO install Arch on new machine and run configuration script [1 hour]
+** TODO tweak config script and repeat story until satisfactory [3 hours]
+* STATS
+#stories: 5
+#tasks: 12
+#predicted student hours: 30 hours
+#actual student hours:    
