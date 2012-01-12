@@ -1,0 +1,11 @@
+#prepare fonts
+xset +fp /usr/share/fonts/local
+xset fp rehash
+#import user-specific x configuration
+xrdb -merge ~/.Xresources
+#set cursor to the normal one
+xsetroot -cursor_name left_ptr
+#make the background pretty
+feh --bg-scale  ~/.res/arch-bg.png
+#start xmonad
+xmonad

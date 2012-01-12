@@ -1,0 +1,27 @@
+export EDITOR=emacs
+
+complete -cf sudo
+
+alias sudo='sudo '
+alias s='sudo '
+alias scd='sudo cd'
+
+alias ls='ls --color=auto --group-directories-first'
+alias la='ls -a'
+
+alias get="sudo pacman -S "
+alias sget="pacman -Ss "
+alias uget="sudo pacman -Syu "
+
+alias e="emacs"
+alias se='sudo emacs '
+alias l="less"
+alias m="more"
+alias g="grep"
+alias eg="egrep"
+
+alias xlog="cat /var/log/Xorg.0.log | egrep -n -T \"(EE|WW)\" | less"
+
+alias cwicd="wicd-curses"
+
+alias suspend='sudo pm-suspend'
