@@ -1,0 +1,17 @@
+   Config { font = "-misc-fixed-*-*-*-*-10-*-*-*-*-*-*-*"
+       , bgColor = "black"
+       , fgColor = "grey"
+       , position = Top
+       , lowerOnStart = True
+       , commands = [ Run Weather "KSEA" ["-t","Seattle: <tempF>F","-L","50","-H","80","--normal","green","--high","red","--low","lightblue"] 600
+                    , Run Cpu ["-L","10","-H","40","--normal","green","--high","red","--low","lightblue"] 60
+		    , Run Memory ["-t","Mem: <used>M","-L","200","-H","1000","--normal","green","--high","red","--low","lightblue"] 60
+                    , Run Com "uname" ["-n"] "" 36000
+                    , Run Date "%d-%m-%y - %H:%M:%S" "date" 1
+		    , Run StdinReader
+                    ]
+       , sepChar = "%"
+       , alignSep = "}{"
+       , template = "%cpu% | %memory% | %StdinReader% }{ <fc=lightblue>%date%</fc> | %KSEA% | %uname%"
+
+       }
