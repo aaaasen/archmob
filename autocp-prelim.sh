@@ -9,5 +9,5 @@ cp res/xmonad.hs ~/.xmonad/xmonad.hs &
 
 cp res/Xresources ~/.Xresources &
 
-res/xinitrc >> ~/.xinitrc
-res/bashrc >> ~/.bashrc          
+cat res/xinitrc >> ~/.xinitrc
+cat res/bashrc >> ~/.bashrc          
